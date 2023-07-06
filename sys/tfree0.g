@@ -6,7 +6,7 @@
 G91                      ; Set Relative Movements
 G1 Z1                    ; Pop the Z up slightly
 G90                      ; Restore Absolute Movements
-G53 G0 X45 Y280 F10000       ; Rapid to the approach position with tool-0. (park_x, park_y - offset)
-G53 G1 Y384 F6000       ; Controlled move to the park position with tool-0. (park_x, park_y)
+G53 G0 X148.8 Y280 F10000       ; Rapid to the approach position with tool-0. (park_x, park_y - offset)
+G53 G1 Y335.7 F6000       ; Controlled move to the park position with tool-0. (park_x, park_y)
 M98 P"/macros/tool_unlock.g" ; Unlock the tool
 G53 G1 Y325 F6000       ; Retract the pin.

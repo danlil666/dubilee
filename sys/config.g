@@ -30,7 +30,7 @@ M83                        ; ...but relative extruder moves
 M584 X1.0 Y1.1            ; X and Y for CoreXY
 M584 U1                   ; U for toolchanger lock
 M584 Z2:3:4               ; Z has three drivers for kinematic bed suspension. 
-
+M584 E0.0                 ; extruder on mainboard 0
 M569 P1.0 S0              ; 3HC Drive 0 | X stepper | Port 0
 M569 P1.1 S0              ; 3HC Drive 1 | Y Stepper | Port 1
 ;M906 X{0.85*sqrt(2)*2000} ; LDO XY 2000mA RMS the TMC5160 driver on duet3
@@ -160,18 +160,43 @@ M208 U0:200            ; Set Elastic Lock (U axis) max rotation angle
 
 ; Tool definitions
 ;-------------------------------------------------------------------------------
-M584 E0.0 R0 S0             ; Gel Extruder with linear plunger
-M906 E{0.8*1300}             ; 80% of 1300mA Peak current rating
-M563 P0 S"Gel Extruder" D0.0; Px = Tool number
+; Orbiter extruder definition
+M308 S1 P"1.temp0" Y"thermistor" T100000 B4725 C7.060000e-8 R2200 A"T0"		; Thermistor for T0 extruder heater
+M950 H1 C"1.out0" T1								; Heater for extruder out toolboad tool 0
+M143 H1 S300									; Set maximum temperature for hotend to 300C
+
+M307 H1 A417.0 C97.8 D0.9 V23.9 B0 						;Auto tune results
+
+M950 F1 C"1.out6"								; Define Hotend Fan on out1
+M106 P1 S255 T45 H1								; Setup Hotend Fan for thermal control, full on when H1 reaches 45C
+
+M950 F0 C"1.out7"								; Define Part Cooling fan on out2
+M106 P0 C"Tool 0 - Part Fan"							; Setup Part Cooling Fan as Part Cooling T0
+
+M563 P0 S"Tool 0" D0 H1 F0							
+; Px = Tool number, Dx = Drive Number (start at 0, after movement drives), Hx = Heater Number, Fx = Fan number print cooling fan
+
+G10 P0 S0 R0									; Set tool 0 operating and standby temperatures(-273 = "off")
+M572 D0 S0.05									; Set Pressure Advance On
+
+ 
+;Heater 1 model: gain 417.0, time constant 97.8, dead time 0.9, max PWM 1.00, calibration voltage 23.9, mode PID
+;Computed PID parameters for setpoint change: P46.7, I4.982, D29.3
+;Computed PID parameters for load change: P46.7, I14.120, D29.3
+
+;---------------------------------------------------------------------------------
+;M584 E0.0 R0 S0             ; Gel Extruder with linear plunger
+;M906 E{0.8*1300}             ; 80% of 1300mA Peak current rating
+;M563 P0 S"Gel Extruder" D0.0; Px = Tool number
                             ; Dx = Drive Number
                             ; H1 = Heater Number
-M569 P0.0 S1				; Invert drive 0.0 (Gel Extruder)
+;M569 P0.0 S1				; Invert drive 0.0 (Gel Extruder)
                             ; Fx = Fan number print cooling fan
-M350 E16 I1                  ; Microstep Factor with interpolation
-M92 E3200					; steps per mm
-M201 E1000					; Extruder Acceleration
-M203 E500
-G10 P0 X0 Y44.8679 Z-39.30
+;M350 E16 I1                  ; Microstep Factor with interpolation
+;M92 E3200					; steps per mm
+;M201 E1000					; Extruder Acceleration
+;M203 E500
+;G10 P0 X0 Y44.8679 Z-39.30
 ;G10  P0 S0 R0               ; Set tool 0 operating and standby temperatures
                             ; (-273 = "off")
 ;M572 D0 S0.085              ; Set pressure advance
