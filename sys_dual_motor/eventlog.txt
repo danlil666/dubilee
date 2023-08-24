@@ -9239,3 +9239,398 @@ power up + 00:00:00 [warn] Error: Heater 1 not found
 power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
 power up + 00:00:06 [warn] HTTP client 192.168.1.3 login succeeded
 2023-06-30 13:25:26 [warn] Date and time set at power up + 00:00:06
+2023-06-30 13:26:48 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-06-30 13:26:42 [warn] Date and time set at power up + 00:00:05
+2023-06-30 13:27:02 [warn] HTTP client 192.168.1.3 disconnected
+2023-06-30 13:27:03 [warn] HTTP client 192.168.1.3 login succeeded
+2023-06-30 13:27:59 [warn] Leadscrew adjustments made: -0.023 -0.042 -0.010, points used 3, (mean, deviation) before (-0.025, 0.012) after (0.000, 0.000)
+2023-06-30 13:35:38 [warn] Started printing file 0:/gcodes/0629_extruder_Lwing.gcode
+2023-06-30 13:38:03 [warn] Resume state saved
+2023-06-30 13:38:09 [warn] Printing paused at X158.7 Y129.3 Z0.2 U0.0
+2023-06-30 13:38:09 [warn] Cancelled printing file 0:/gcodes/0629_extruder_Lwing.gcode, print time was 0h 2m
+2023-06-30 13:39:02 [warn] Started printing file 0:/gcodes/0629_extruder_Lwing.gcode
+2023-06-30 13:42:28 [warn] Resume state saved
+2023-06-30 13:42:34 [warn] Printing paused at X165.6 Y135.6 Z0.2 U0.0
+2023-06-30 13:42:34 [warn] Cancelled printing file 0:/gcodes/0629_extruder_Lwing.gcode, print time was 0h 3m
+2023-06-30 13:43:55 [warn] Started printing file 0:/gcodes/0629_extruder_Lwing.gcode
+2023-06-30 15:46:31 [warn] Finished printing file 0:/gcodes/0629_extruder_Lwing.gcode, print time was 2h 2m
+2023-06-30 15:55:45 [warn] Error: New tool too close to Z axis limit. Aborting tool change
+2023-06-30 16:06:28 [warn] Error: New tool too close to Z axis limit. Aborting tool change
+2023-06-30 16:07:45 [warn] Leadscrew adjustments made: 0.084 0.025 -0.033, points used 3, (mean, deviation) before (0.024, 0.043) after (0.000, 0.000)
+2023-06-30 16:11:37 [warn] Started printing file 0:/gcodes/0630_temp.gcode
+2023-06-30 16:14:51 [warn] Resume state saved
+2023-06-30 16:14:58 [warn] Printing paused at X130.8 Y181.1 Z0.2 U0.0
+2023-06-30 16:14:58 [warn] Cancelled printing file 0:/gcodes/0630_temp.gcode, print time was 0h 3m
+2023-06-30 16:15:18 [warn] Started printing file 0:/gcodes/0630_temp.gcode
+2023-07-01 01:00:51 [warn] Finished printing file 0:/gcodes/0630_temp.gcode, print time was 8h 45m
+2023-07-02 16:30:14 [warn] Error: Temperature reading fault on heater 1: sensor open circuit
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:02:35 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-02 16:39:19 [warn] Date and time set at power up + 00:02:35
+2023-07-02 16:39:20 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-02 16:41:00 [warn] Leadscrew adjustments made: -0.046 -0.014 0.003, points used 3, (mean, deviation) before (-0.018, 0.019) after (0.000, 0.000)
+2023-07-02 16:45:28 [warn] Started printing file 0:/gcodes/0630_temp.gcode
+2023-07-02 16:55:52 [warn] Resume state saved
+2023-07-02 16:55:57 [warn] Printing paused at X133.5 Y132.1 Z0.2 U0.0
+2023-07-02 16:55:58 [warn] Cancelled printing file 0:/gcodes/0630_temp.gcode, print time was 0h 10m
+2023-07-02 17:02:39 [warn] Started printing file 0:/gcodes/0630_temp.gcode
+2023-07-02 17:21:42 [warn] Resume state saved
+2023-07-02 17:21:47 [warn] Printing paused at X168.9 Y134.7 Z0.4 U0.0
+2023-07-02 17:21:47 [warn] Cancelled printing file 0:/gcodes/0630_temp.gcode, print time was 0h 19m
+2023-07-02 17:23:49 [warn] Started printing file 0:/gcodes/0630_temp.gcode
+2023-07-03 05:26:04 [warn] Finished printing file 0:/gcodes/0630_temp.gcode, print time was 12h 2m
+2023-07-05 11:31:23 [warn] Ethernet running, IP address = 192.168.1.2
+2023-07-05 11:31:36 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 11:48:24 [warn] Leadscrew adjustments made: 0.013 0.012 -0.019, points used 3, (mean, deviation) before (0.002, 0.013) after (0.000, 0.000)
+2023-07-05 11:49:35 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 12:03:14 [warn] Error: Heater 1 fault: temperature rising much more slowly than the expected 0.6°C/sec
+2023-07-05 12:03:14 [warn] Resume state saved
+2023-07-05 12:03:20 [warn] Printing paused at X153.0 Y161.5 Z0.8 U0.0
+2023-07-05 12:03:48 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 13m
+2023-07-05 12:05:40 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 12:07:32 [warn] Resume state saved
+2023-07-05 12:07:37 [warn] Printing paused at X168.8 Y165.9 Z0.2 U0.0
+2023-07-05 12:07:37 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 1m
+2023-07-05 12:08:27 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 12:14:02 [warn] Error: Heater 1 fault: temperature rising much more slowly than the expected 0.7°C/sec
+2023-07-05 12:14:02 [warn] Resume state saved
+2023-07-05 12:14:07 [warn] Printing paused at X130.8 Y168.1 Z0.4 U0.0
+2023-07-05 12:15:25 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 5m
+2023-07-05 12:15:25 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 12:15:32 [warn] Date and time set at power up + 00:00:05
+2023-07-05 12:17:03 [warn] Leadscrew adjustments made: 0.001 0.049 -0.011, points used 3, (mean, deviation) before (0.012, 0.024) after (0.000, 0.000)
+2023-07-05 12:17:49 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 12:20:32 [warn] Resume state saved
+2023-07-05 12:20:37 [warn] Printing paused at X173.8 Y144.3 Z0.2 U0.0
+2023-07-05 12:20:50 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 2m
+2023-07-05 12:20:57 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 12:22:29 [warn] Resume state saved
+2023-07-05 12:22:34 [warn] Printing paused at X163.6 Y149.8 Z0.2 U0.0
+2023-07-05 12:22:34 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 1m
+2023-07-05 12:30:41 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 12:35:43 [warn] Error: Heater 1 fault: temperature excursion exceeded 15.0°C (target 230.0°C, actual 214.4°C)
+2023-07-05 12:35:43 [warn] Resume state saved
+2023-07-05 12:35:48 [warn] Printing paused at X175.6 Y141.9 Z0.4 U0.0
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 12:36:46 [warn] Date and time set at power up + 00:00:05
+2023-07-05 12:37:36 [warn] Leadscrew adjustments made: 0.008 0.016 0.007, points used 3, (mean, deviation) before (0.010, 0.004) after (0.000, 0.000)
+2023-07-05 12:45:13 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 12:50:12 [warn] Error: Heater 1 fault: temperature excursion exceeded 15.0°C (target 230.0°C, actual 214.6°C)
+2023-07-05 12:50:12 [warn] Resume state saved
+2023-07-05 12:50:17 [warn] Printing paused at X166.9 Y145.1 Z0.4 U0.0
+2023-07-05 12:50:49 [warn] Printing resumed
+2023-07-05 12:50:59 [warn] Error: Heater 1 fault: temperature rising much more slowly than the expected 0.8°C/sec
+2023-07-05 12:50:59 [warn] Resume state saved
+2023-07-05 12:51:04 [warn] Printing paused at X175.9 Y171.0 Z0.4 U0.0
+2023-07-05 12:51:06 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 5m
+2023-07-05 12:53:27 [info] Event logging stopped
+2023-07-05 12:53:27 [info] Event logging started at level warn
+2023-07-05 12:53:27 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-05 12:53:27 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-05 12:53:27 [warn] Error: in file macro line 13 column 32: M106: string too long
+2023-07-05 12:54:33 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 12:56:22 [warn] Date and time set at power up + 00:00:05
+2023-07-05 12:57:09 [warn] Leadscrew adjustments made: 0.030 0.019 0.010, points used 3, (mean, deviation) before (0.019, 0.007) after (-0.000, 0.000)
+2023-07-05 12:58:17 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 13:08:44 [warn] Resume state saved
+2023-07-05 13:08:50 [warn] Printing paused at X163.1 Y171.8 Z0.7 U0.0
+2023-07-05 13:08:50 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 10m
+2023-07-05 13:09:54 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 13:52:29 [warn] Ethernet running, IP address = 192.168.1.2
+2023-07-05 13:52:33 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 13:55:52 [warn] Resume state saved
+2023-07-05 13:55:57 [warn] Printing paused at X151.4 Y129.5 Z3.1 U0.0
+2023-07-05 13:55:57 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 45m
+2023-07-05 14:02:51 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 14:10:43 [warn] Resume state saved
+2023-07-05 14:10:49 [warn] Printing paused at X153.0 Y145.6 Z0.5 U0.0
+2023-07-05 14:10:49 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 7m
+2023-07-05 14:12:37 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 14:18:31 [warn] Error: Heater 1 fault: temperature excursion exceeded 15.0°C (target 230.0°C, actual 214.8°C)
+2023-07-05 14:18:31 [warn] Resume state saved
+2023-07-05 14:18:36 [warn] Printing paused at X164.2 Y170.7 Z0.4 U0.0
+2023-07-05 14:28:31 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 5m
+2023-07-05 14:28:31 [warn] Error: Shutting down due to un-cleared heater fault after 600 seconds
+2023-07-05 14:28:32 [warn] Power off commanded
+2023-07-05 15:01:29 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 15:02:21 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 0m
+2023-07-05 15:02:21 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 15:02:29 [warn] Date and time set at power up + 00:00:05
+2023-07-05 15:03:27 [warn] Leadscrew adjustments made: -0.866 -0.903 0.075, points used 3, (mean, deviation) before (-0.550, 0.398) after (0.000, 0.000)
+2023-07-05 15:04:15 [warn] Leadscrew adjustments made: 0.523 0.563 -0.412, points used 3, (mean, deviation) before (0.209, 0.396) after (-0.000, 0.000)
+2023-07-05 15:04:29 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 15:10:50 [warn] Error: Heater 1 fault: temperature excursion exceeded 15.0°C (target 230.0°C, actual 214.7°C)
+2023-07-05 15:10:50 [warn] Resume state saved
+2023-07-05 15:10:56 [warn] Printing paused at X164.7 Y148.7 Z0.4 U0.0
+2023-07-05 15:11:02 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 6m
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 15:12:59 [warn] Date and time set at power up + 00:00:05
+2023-07-05 15:13:29 [info] Event logging stopped
+2023-07-05 15:13:29 [info] Event logging started at level warn
+2023-07-05 15:13:29 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-05 15:13:29 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-05 15:13:29 [warn] Error: in file macro line 13 column 32: M106: string too long
+2023-07-05 15:14:12 [warn] Leadscrew adjustments made: -0.376 -0.340 -0.369, points used 3, (mean, deviation) before (-0.362, 0.015) after (0.000, 0.000)
+2023-07-05 15:15:04 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 15:15:31 [warn] Resume state saved
+2023-07-05 15:15:37 [warn] Printing paused at X148.8 Y225.0 Z1.0 U0.0
+2023-07-05 15:16:20 [warn] Printing resumed
+2023-07-05 15:17:03 [warn] Resume state saved
+2023-07-05 15:17:09 [warn] Printing paused at X135.4 Y129.8 Z0.7 U0.0
+2023-07-05 15:17:09 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 1m
+2023-07-05 15:17:30 [info] Event logging stopped
+2023-07-05 15:17:30 [info] Event logging started at level warn
+2023-07-05 15:17:30 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-05 15:17:30 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-05 15:17:30 [warn] Error: in file macro line 13 column 32: M106: string too long
+2023-07-05 15:18:14 [warn] Leadscrew adjustments made: 0.003 0.025 0.009, points used 3, (mean, deviation) before (0.012, 0.009) after (-0.000, 0.000)
+2023-07-05 15:18:30 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 15:23:41 [warn] Error: Heater 1 fault: temperature excursion exceeded 15.0°C (target 230.0°C, actual 214.8°C)
+2023-07-05 15:23:41 [warn] Resume state saved
+2023-07-05 15:23:46 [warn] Printing paused at X176.7 Y171.8 Z0.9 U0.0
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:06 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 15:24:45 [warn] Date and time set at power up + 00:00:06
+2023-07-05 15:26:26 [warn] Leadscrew adjustments made: 0.051 0.007 0.019, points used 3, (mean, deviation) before (0.026, 0.018) after (-0.000, 0.000)
+2023-07-05 15:37:32 [warn] Started printing file 0:/gcodes/0630_4,4mm_10mm.gcode
+2023-07-05 15:37:37 [warn] Resume state saved
+2023-07-05 15:37:44 [warn] Printing paused at X8.8 Y225.0 Z26.0 U0.0
+2023-07-05 15:39:06 [warn] Error: M32: Cannot set file to print, because a file is already being printed
+2023-07-05 15:39:07 [warn] Cancelled printing file 0:/gcodes/0630_4,4mm_10mm.gcode, print time was 0h 0m
+2023-07-05 15:39:17 [warn] Started printing file 0:/gcodes/moai-Small-NO_OVERHANG.gcode
+2023-07-05 16:24:42 [warn] Ethernet running, IP address = 192.168.1.2
+2023-07-05 16:24:46 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 16:41:48 [warn] Resume state saved
+2023-07-05 16:41:54 [warn] Printing paused at X147.6 Y154.9 Z18.3 U0.0
+2023-07-05 16:42:12 [warn] Cancelled printing file 0:/gcodes/moai-Small-NO_OVERHANG.gcode, print time was 1h 2m
+2023-07-05 16:52:48 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-05 16:53:08 [warn] Resume state saved
+2023-07-05 16:53:08 [warn] Error: Bad command: iage
+2023-07-05 16:53:08 [warn] Error: Attempting to extrude with no tool selected.
+2023-07-05 16:53:14 [warn] Printing paused at X148.8 Y280.0 Z49.3 U0.0
+2023-07-05 16:53:20 [warn] Cancelled printing file 0:/gcodes/Alpaca.gcode, print time was 0h 0m
+2023-07-05 16:53:28 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-05 16:53:58 [warn] Resume state saved
+2023-07-05 16:54:03 [warn] Printing paused at X148.8 Y225.0 Z1.0 U0.0
+2023-07-05 16:54:03 [warn] Cancelled printing file 0:/gcodes/Alpaca.gcode, print time was 0h 0m
+2023-07-05 16:54:23 [warn] Error: Homing failed
+2023-07-05 16:54:33 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-05 17:26:25 [warn] Finished printing file 0:/gcodes/Alpaca.gcode, print time was 0h 31m
+2023-07-05 20:00:09 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-05 20:11:56 [warn] Ethernet running, IP address = 192.168.1.2
+2023-07-05 20:12:00 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-05 20:13:24 [warn] Resume state saved
+2023-07-05 20:13:30 [warn] Printing paused at X156.7 Y165.9 Z3.4 U0.0
+2023-07-05 20:13:30 [warn] Cancelled printing file 0:/gcodes/Alpaca.gcode, print time was 0h 13m
+2023-07-05 20:13:56 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-05 20:16:43 [warn] Resume state saved
+2023-07-05 20:16:48 [warn] Printing paused at X145.4 Y152.5 Z0.7 U0.0
+2023-07-05 20:16:48 [warn] Cancelled printing file 0:/gcodes/Alpaca.gcode, print time was 0h 2m
+2023-07-05 20:19:13 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-05 20:34:03 [warn] Resume state saved
+2023-07-05 20:34:08 [warn] Printing paused at X151.5 Y133.0 Z4.5 U0.0
+2023-07-05 20:34:08 [warn] Cancelled printing file 0:/gcodes/Alpaca.gcode, print time was 0h 14m
+2023-07-05 20:54:34 [warn] Error: Temperature reading fault on heater 1: sensor open circuit
+2023-07-05 21:07:55 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-05 21:08:29 [warn] Cancelled printing file 0:/gcodes/Alpaca.gcode, print time was 0h 0m
+2023-07-05 21:08:29 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 11:44:22 [warn] Date and time set at power up + 00:00:05
+2023-07-06 11:44:53 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 11:44:59 [warn] Date and time set at power up + 00:00:05
+2023-07-06 11:48:25 [warn] Leadscrew adjustments made: -0.026 -0.037 0.049, points used 3, (mean, deviation) before (-0.004, 0.034) after (-0.000, 0.000)
+2023-07-06 11:56:57 [warn] Error: M303: heater 0 target temperature must be below the temperature limit for this heater (100.0C)
+2023-07-06 11:57:06 [warn] Error: M303: heater 1 must be off and cold before auto tuning it
+2023-07-06 12:06:41 [warn] Auto tuning heater 1 completed after 3 idle and 5 tuning cycles in 293 seconds. This heater needs the following M307 command:
+ M307 H1 B0 R2.430 C159.8 D3.70 S1.00 V24.2
+2023-07-06 13:41:09 [warn] Ethernet running, IP address = 192.168.1.2
+2023-07-06 13:41:14 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 14:01:43 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-06 14:03:47 [warn] Resume state saved
+2023-07-06 14:03:53 [warn] Printing paused at X148.8 Y225.0 Z1.0 U0.0
+2023-07-06 14:05:05 [warn] Cancelled printing file 0:/gcodes/Alpaca.gcode, print time was 0h 2m
+2023-07-06 14:05:05 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Error: Heater 0 not found
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:00 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 14:05:13 [warn] Date and time set at power up + 00:00:05
+2023-07-06 14:08:57 [warn] Leadscrew adjustments made: 0.027 0.047 -0.011, points used 3, (mean, deviation) before (0.020, 0.022) after (-0.000, 0.000)
+2023-07-06 14:08:57 [warn] Error: Homing failed
+2023-07-06 14:09:04 [warn] Started printing file 0:/gcodes/Alpaca.gcode
+2023-07-06 14:41:34 [warn] Finished printing file 0:/gcodes/Alpaca.gcode, print time was 0h 32m
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:01 [warn] Error: Heater 0 not found
+power up + 00:00:01 [warn] Error: Heater 1 not found
+power up + 00:00:01 [warn] Error: in file macro line 13 column 32: M106: string too long
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:06 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 15:13:03 [warn] Date and time set at power up + 00:00:06
+2023-07-06 15:13:46 [warn] Error: Cannot delete file 0:/sys/eventlog.txt because it is open
+2023-07-06 15:14:05 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 15:14:10 [warn] Date and time set at power up + 00:00:05
+2023-07-06 15:16:03 [warn] Leadscrew adjustments made: -0.030 0.042 0.013, points used 3, (mean, deviation) before (0.008, 0.029) after (0.000, 0.000)
+2023-07-06 15:17:24 [info] Event logging stopped
+2023-07-06 15:17:24 [info] Event logging started at level warn
+2023-07-06 15:17:24 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-06 15:17:24 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-06 15:17:24 [warn] Error: Heater 1 not found
+2023-07-06 15:17:50 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 15:17:57 [warn] Date and time set at power up + 00:00:05
+2023-07-06 15:19:21 [warn] Leadscrew adjustments made: 0.004 0.009 0.007, points used 3, (mean, deviation) before (0.007, 0.002) after (0.000, 0.000)
+2023-07-06 15:19:30 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 15:18:59 [warn] Date and time set at power up + 00:00:05
+2023-07-06 15:20:04 [warn] Leadscrew adjustments made: 0.005 0.005 0.008, points used 3, (mean, deviation) before (0.006, 0.001) after (-0.000, 0.000)
+2023-07-06 15:58:34 [info] Event logging stopped
+2023-07-06 15:58:34 [info] Event logging started at level warn
+2023-07-06 15:58:34 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-06 15:58:34 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-06 15:58:34 [warn] Error: Heater 1 not found
+2023-07-06 15:59:41 [warn] Leadscrew adjustments made: 0.017 0.016 -0.001, points used 3, (mean, deviation) before (0.010, 0.007) after (0.000, 0.000)
+2023-07-06 17:34:26 [info] Event logging stopped
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:01 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-06 17:34:34 [warn] Date and time set at power up + 00:00:05
+2023-07-24 16:24:54 [warn] Warning: VIN under-voltage event (9.4V)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:13 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-24 16:32:00 [warn] Date and time set at power up + 00:00:13
+2023-07-24 16:32:49 [warn] Leadscrew adjustments made: 0.007 -0.114 0.022, points used 3, (mean, deviation) before (-0.027, 0.058) after (-0.000, 0.000)
+2023-07-24 16:32:49 [warn] Error: Homing failed
+2023-07-24 16:36:20 [info] Event logging stopped
+2023-07-24 16:36:20 [info] Event logging started at level warn
+2023-07-24 16:36:20 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-24 16:36:20 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-24 16:36:20 [warn] Error: Heater 1 not found
+2023-07-24 16:36:58 [warn] Error: Homing failed
+2023-07-24 16:37:51 [warn] Leadscrew adjustments made: -0.011 -0.009 -0.011, points used 3, (mean, deviation) before (-0.010, 0.001) after (0.000, 0.000)
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:05 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-24 16:46:52 [warn] Date and time set at power up + 00:00:05
+2023-07-24 16:48:23 [warn] Leadscrew adjustments made: -0.025 -0.023 0.001, points used 3, (mean, deviation) before (-0.015, 0.010) after (-0.000, 0.000)
+2023-07-24 16:48:23 [warn] Error: Homing failed
+2023-07-24 17:14:58 [info] Event logging stopped
+2023-07-24 17:14:58 [info] Event logging started at level warn
+2023-07-24 17:14:58 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-24 17:14:58 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-24 17:14:58 [warn] Error: Heater 1 not found
+2023-07-24 17:15:49 [warn] Error: Homing failed
+2023-07-24 17:22:06 [info] Event logging stopped
+2023-07-24 17:22:06 [info] Event logging started at level warn
+2023-07-24 17:22:06 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-24 17:22:06 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-24 17:22:06 [warn] Error: Heater 1 not found
+2023-07-24 17:29:10 [info] Event logging stopped
+2023-07-24 17:29:10 [info] Event logging started at level warn
+2023-07-24 17:29:10 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+2023-07-24 17:29:11 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+2023-07-24 17:29:11 [warn] Error: Heater 1 not found
+power up + 00:00:00 [info] Event logging started at level warn
+power up + 00:00:00 [info] Running: Duet 3 Mini5plus Ethernet: 3.3RC2 (2021-05-11 14:55:40)
+power up + 00:00:00 [warn] Warning: Heater 0 appears to be over-powered. If left on at full power, its temperature is predicted to reach 283C
+power up + 00:00:00 [warn] Error: Heater 1 not found
+power up + 00:00:02 [warn] Ethernet running, IP address = 192.168.1.2
+power up + 00:00:35 [warn] HTTP client 192.168.1.3 login succeeded
+2023-07-31 15:16:21 [warn] Date and time set at power up + 00:00:35

@@ -51,7 +51,7 @@ M569 P0.3 S0                ; Drive 3 | Front Right Z
 M569 P0.4 S0                ; Drive 4 | Back Z
 M906 Z{0.7*sqrt(2)*1680}  ; 70% of 1680mA RMS
 
-M906 E{0.8*1300}:450 									          ; 80% of 1300mA Peak current rating for tool 0; 450mA for tool 1
+M906 E{0.8*2800}:450 									          ; 80% of 2800mA Peak current rating for tool 0; 450mA for tool 1
 
 ; Kinematics
 ;-------------------------------------------------------------------------------
@@ -140,15 +140,15 @@ M563 P0 S"Shroom extruder" D0:1; Px = Tool number
                             ; Dx = Drive Number - not the address
                             ; H1 = Heater Number
 M568 P0 S1 					; Enable mixing for tool 0
-M567 P0 E1.00:3			; define mixing ratio
+M567 P0 E1.00:47			; define mixing ratio
 
                             ; Fx = Fan number print cooling fan
 M350 E16:16 I1                  ; Microstep Factor with interpolation
-M92 E800:800					; steps per mm
+M92 E{360/1.8/2*15.3}:200					; steps per mm - 1.8 deg stepper / lead (2mm) of screw gear ratio 15.3
 M201 E1000:1000					; Extruder Acceleration
 M203 E500:500
 ;G10 P0 X0 Y44.8679 Z0
-G10 P0 X0 Y44.8679 Z-39.30
+G10 P0 X0 Y44.8679 Z-18.66
 ;G10  P0 S0 R0               ; Set tool 0 operating and standby temperatures
                             ; (-273 = "off")
 ;M572 D0 S0.085              ; Set pressure advance

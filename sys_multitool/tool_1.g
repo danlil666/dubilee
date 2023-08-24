@@ -19,7 +19,7 @@ M92 E681					; steps per mm
 ;M906 E450 									;motor current mA
 
 G10 P1 S0 R0									; Set tool 1 operating and standby temperatures(-273 = "off")
-G10 P1 Y32.75 Z-1.73
+G10 P1 Y32.75 Z-1.78
 M572 D1 S0.03									; Set Pressure Advance On
 
  
